@@ -2,11 +2,12 @@ name: Hello World
 
 on:
   push:
-  branches: 
-    - 'main'
+    branches: 
+      - 'main'
 jobs:
   build:
     runs-on: ubuntu-latest
 
-    steps: Printing Hello World
-    run: echo "Hello World!"
+    steps: 
+    - name: Printing Hello World
+      run: echo "Hello World!"
