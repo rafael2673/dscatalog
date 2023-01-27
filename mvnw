@@ -48,8 +48,7 @@ fi
 cygwin=false;
 darwin=false;
 mingw=false
-case "`uname`" in
-  CYGWIN*) cygwin=true ;;
+case "`uname`" in  CYGWIN*) cygwin=true ;;
   MINGW*) mingw=true;;
   Darwin*) darwin=true
     # Use /usr/libexec/java_home if available, otherwise fall back to /Library/Java/Home
