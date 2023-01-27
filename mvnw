@@ -17,6 +17,7 @@
 # specific language governing permissions and limitations
 # under the License.
 # ----------------------------------------------------------------------------
+
 # ----------------------------------------------------------------------------
 # Maven Start Up Batch script
 #
@@ -32,6 +33,7 @@
 #       set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=y,address=8000
 #   MAVEN_SKIP_RC - flag to disable loading of mavenrc files
 # ----------------------------------------------------------------------------
+
 if [ -z "$MAVEN_SKIP_RC" ] ; then
 
   if [ -f /etc/mavenrc ] ; then
@@ -48,7 +50,8 @@ fi
 cygwin=false;
 darwin=false;
 mingw=false
-case "`uname`" in  CYGWIN*) cygwin=true ;;
+case "`uname`" in
+  CYGWIN*) cygwin=true ;;
   MINGW*) mingw=true;;
   Darwin*) darwin=true
     # Use /usr/libexec/java_home if available, otherwise fall back to /Library/Java/Home
